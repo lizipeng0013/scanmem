@@ -1,0 +1,527 @@
+# Chinese translations for Game Conqueror.
+# Copyright (C) 2009-2013 Wang Lu <coolwanglu(a)gmail.com>
+# This file is distributed under the same license as Game Conqueror.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scanmem-zh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-17 22:08+0200\n"
+"PO-Revision-Date: 2024-11-24 01:20+0800\n"
+"Last-Translator: lizipeng0013 <lizipeng0013@163.com>\n"
+"Language-Team: lizipeng0013\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../gui/GameConqueror.ui.h:1
+msgid "GameConqueror - Memory Editor"
+msgstr "GameConqueror - 内存编辑器"
+
+#: ../gui/GameConqueror.ui.h:2
+msgid "_Address:"
+msgstr "地址："
+
+#: ../gui/GameConqueror.ui.h:3
+msgid "Target address here (CTRL+L)"
+msgstr "目标地址在这里（CTRL+L）"
+
+#: ../gui/GameConqueror.ui.h:4
+msgid "Enter address to view"
+msgstr "输入地址以查看"
+
+#: ../gui/GameConqueror.ui.h:5
+msgid "Jump to address (CTRL+ENTER)"
+msgstr "跳转到地址（CTRL+ENTER）"
+
+#: ../gui/GameConqueror.ui.h:6
+msgid "_Refresh (CTRL+R)"
+msgstr "刷新（CTRL+R）"
+
+#: ../gui/GameConqueror.ui.h:7
+msgid "GameConqueror"
+msgstr ""
+
+#: ../gui/GameConqueror.ui.h:8
+msgid "Found: 0"
+msgstr "找到：0"
+
+#: ../gui/GameConqueror.ui.h:9
+msgid ""
+"Syntax:\n"
+"\n"
+" For numeric types:\n"
+"<span font_family=\"monospace\">\n"
+" <b>N</b>         Exactly this number\n"
+" <b>N..M</b>      Range between two numbers\n"
+" <b>?</b>         Unknown initial value\n"
+" <b>&gt; or +</b>    Increased values\n"
+" <b>&lt; or -</b>    Decreased values\n"
+" <b>=</b>         Unchanged values\n"
+" <b>!=</b>        Changed values\n"
+" <b>&gt; N</b>       Greater than N\n"
+" <b>&lt; N</b>       Less than N\n"
+" <b>+ N</b>       Increased by N\n"
+" <b>- N</b>       Decreased by N\n"
+" <b>!= N</b>      Other than N\n"
+"</span>\n"
+" where N could be a number of a simple math expression embraced by (), e.g.\n"
+"<span font_family=\"monospace\"> 12\n"
+" 0x34\n"
+" 5.67\n"
+" (- 8 * 9)</span>\n"
+"\n"
+" For bytearray: use 2-char hexadecimal notation for each byte, separated by spaces\n"
+" e.g. <span font_family=\"monospace\">FE DC BA 98 76 54 32 10</span>\n"
+" <span font_family=\"monospace\">??</span> can be used as a wildcard value\n"
+"\n"
+" For string: enter the string directly"
+msgstr ""
+"语法：\n"
+"\n"
+"对于数值类型：\n"
+"<span font_family=\"monospace\">\n"
+" <b>N</b>         精确到这个数值\n"
+" <b>N..M</b>      两个数值之间的范围\n"
+" <b>?</b>         所有值\n"
+" <b>&gt; or +</b>    比上次扫描时增加的值\n"
+" <b>&lt; or -</b>    比上次扫描时减少的值\n"
+" <b>=</b>         比上次扫描时没有变化的值\n"
+" <b>!=</b>        比上次扫描时有变化的值\n"
+" <b>&gt; N</b>       大于 N\n"
+" <b>&lt; N</b>       小于 N\n"
+" <b>+ N</b>       比上次扫描时增加了 N\n"
+" <b>- N</b>       比上次扫描时减少了 N\n"
+" <b>!= N</b>       与 N 不同的\n"
+"</span>\n"
+" 其中 N 可以是数值或括号内的简单数学表达式，例如：\n"
+"<span font_family=\"monospace\"> 12\n"
+" 0x34\n"
+" 5.67\n"
+" (- 8 * 9)</span>\n"
+"\n"
+" 对于字节数组：每个字节使用2位十六进制表示，字节之间用空格分隔。例如：\n"
+" 例: <span font_family=\"monospace\">FE DC BA 98 76 54 32 10</span>\n"
+" <span font_family=\"monospace\">??</span>可以用作通配符值\n"
+"\n"
+" 对于字符串：直接输入要搜索的字符串"
+
+#: ../gui/GameConqueror.ui.h:37
+msgid "_Value: <span color=\"blue\"><u>?</u></span>"
+msgstr "值: <span color=\"blue\"><u>?</u></span>"
+
+#: ../gui/GameConqueror.ui.h:38
+msgid "Enter search value here (CTRL+K/L)"
+msgstr "在此输入搜索的值（CTRL+K/L）"
+
+#: ../gui/GameConqueror.ui.h:39
+msgid "Insert value to search for (CTRL+K/L)"
+msgstr "在此输入搜索的值（CTRL+K/L）"
+
+#: ../gui/GameConqueror.ui.h:40
+msgid "Scan (CTRL+ENTER)"
+msgstr "扫描（CTRL+ENTER）"
+
+#: ../gui/GameConqueror.ui.h:41
+msgid "Reset (CTRL+R)"
+msgstr "重置（CTRL+R）"
+
+#: ../gui/GameConqueror.ui.h:42
+msgid "Stop scan"
+msgstr "停止扫描"
+
+#: ../gui/GameConqueror.ui.h:43
+msgid "About"
+msgstr "关于"
+
+#: ../gui/GameConqueror.ui.h:44
+msgid "Select a process (CTRL+F)"
+msgstr "选择一个进程（CTRL+F）"
+
+#: ../gui/GameConqueror.ui.h:45 ../gui/GameConqueror.py:928
+msgid "Select a process"
+msgstr "选择一个进程"
+
+#: ../gui/GameConqueror.ui.h:46 ../gui/GameConqueror.py:927
+msgid "No process selected"
+msgstr "未选择进程"
+
+#: ../gui/GameConqueror.ui.h:47
+msgid "Specify type of target data"
+msgstr "指定目标数据的类型"
+
+#: ../gui/GameConqueror.ui.h:48
+msgid "Data _Type:"
+msgstr "数据类型："
+
+#: ../gui/GameConqueror.ui.h:49
+msgid ""
+"<b>Basic:</b>      Fastest but may miss some values\n"
+"<b>Normal:</b>  Works for most cases\n"
+"<b>Full:</b>         Never miss values but slowest"
+msgstr ""
+"<b>Basic:</b>      速度最快但可能会遗漏一些值\n"
+"<b>Normal:</b>  适用于大多数情况\n"
+"<b>Full:</b>         绝不会遗漏值但速度最慢"
+
+#: ../gui/GameConqueror.ui.h:52
+msgid "_Search Scope:"
+msgstr "搜索范围："
+
+#: ../gui/GameConqueror.ui.h:53
+msgid "Memory Editor (CTRL+SHIFT+M)"
+msgstr "内存编辑器（CTRL+SHIFT+M）"
+
+#: ../gui/GameConqueror.ui.h:54
+msgid "Save address list to file (CTRL+S)"
+msgstr "将地址列表保存到文件（CTRL+S）"
+
+#: ../gui/GameConqueror.ui.h:55
+msgid "Load address list from file (CTRL+O)"
+msgstr "从文件加载地址列表（CTRL+O）"
+
+#: ../gui/GameConqueror.ui.h:56
+msgid "Remove all entries (CTRL+D)"
+msgstr "删除所有条目（CTRL+D）"
+
+#: ../gui/GameConqueror.ui.h:57
+msgid "Manually add an entry (CTRL+M)"
+msgstr "手动添加条目（CTRL+M）"
+
+#: ../gui/GameConqueror.ui.h:58
+msgid ""
+"Copyright (C) 2009-2014 WANG Lu  <coolwanglu@gmail.com>\n"
+"Copyright (C) 2010 Bryan Cain\n"
+"Copyright (C) 2015-2016 Sebastian Parschauer  <s.parschauer@gmx.de>\n"
+"Copyright (C) 2016 Andrea Stacchiotti <andreastacchiotti(a)gmail.com>\n"
+"\n"
+"Special thanks: Igor Gnatenko, Mattias Muenster, Zhang Zhe"
+msgstr ""
+"Copyright (C) 2009-2014 WANG Lu  <coolwanglu@gmail.com>\n"
+"Copyright (C) 2010 Bryan Cain\n"
+"Copyright (C) 2015-2016 Sebastian Parschauer  <s.parschauer@gmx.de>\n"
+"Copyright (C) 2016 Andrea Stacchiotti <andreastacchiotti(a)gmail.com>\n"
+"\n"
+"特别感谢： Igor Gnatenko, Mattias Muenster, Zhang Zhe"
+
+#: ../gui/GameConqueror.ui.h:64
+msgid "A graphical frontend of scanmem"
+msgstr "scanmem 图形界面前端"
+
+#: ../gui/GameConqueror.ui.h:65
+msgid "Homepage"
+msgstr "主页"
+
+#: ../gui/GameConqueror.ui.h:66
+msgid "Manually add an entry"
+msgstr "手动添加条目"
+
+#: ../gui/GameConqueror.ui.h:67
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: ../gui/GameConqueror.ui.h:68
+msgid "_Add"
+msgstr "添加(_A)"
+
+#: ../gui/GameConqueror.ui.h:69
+msgid "Memory address of the value"
+msgstr "值的内存地址"
+
+#: ../gui/GameConqueror.ui.h:70
+msgid "Addres_s:"
+msgstr "地址："
+
+#: ../gui/GameConqueror.ui.h:71
+msgid "Give a brief description of the value"
+msgstr "输入变量的简要描述"
+
+#: ../gui/GameConqueror.ui.h:72
+msgid "_Description:"
+msgstr "描述："
+
+#: ../gui/GameConqueror.ui.h:73
+msgid "_Type:"
+msgstr "数据类型："
+
+#: ../gui/GameConqueror.ui.h:74
+msgid "Specify data length (string/bytearray only)"
+msgstr "指定数据长度（仅限字符串/字节数组）"
+
+#: ../gui/GameConqueror.ui.h:75
+msgid "_Length:"
+msgstr "长度："
+
+#: ../gui/GameConqueror.ui.h:76
+msgid "Type to search for a process"
+msgstr "输入以搜索进程（Ctrl+F）"
+
+#: ../gui/GameConqueror.ui.h:77
+msgid "_OK"
+msgstr "确定(_O)"
+
+#: ../gui/GameConqueror.ui.h:78
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: ../gui/GameConqueror.ui.h:79
+msgid "_User:"
+msgstr "用户："
+
+#: ../gui/GameConqueror.ui.h:80
+msgid "_Process:"
+msgstr "进程："
+
+#: ../gui/GameConqueror.ui.h:81
+msgid "Filter"
+msgstr "过滤器"
+
+#: ../gui/GameConqueror.py:72
+msgid "Basic"
+msgstr ""
+
+#: ../gui/GameConqueror.py:72
+msgid "Normal"
+msgstr ""
+
+#: ../gui/GameConqueror.py:72
+msgid "Full"
+msgstr ""
+
+#. init columns
+#. Address
+#: ../gui/GameConqueror.py:180 ../gui/GameConqueror.py:234
+msgid "Address"
+msgstr "地址"
+
+#. Value
+#: ../gui/GameConqueror.py:184 ../gui/GameConqueror.py:251
+msgid "Value"
+msgstr "值"
+
+#: ../gui/GameConqueror.py:188
+msgid "Offset"
+msgstr "偏移量"
+
+#: ../gui/GameConqueror.py:192
+msgid "Region Type"
+msgstr "区域类型"
+
+#. Lock
+#: ../gui/GameConqueror.py:217
+msgid "Lock"
+msgstr "锁定"
+
+#. Description
+#: ../gui/GameConqueror.py:226
+msgid "Description"
+msgstr "描述"
+
+#. Type
+#: ../gui/GameConqueror.py:239
+msgid "Type"
+msgstr "类型"
+
+#. second col
+#: ../gui/GameConqueror.py:276
+msgid "User"
+msgstr "用户"
+
+#. third col
+#: ../gui/GameConqueror.py:281
+msgid "Process"
+msgstr "进程"
+
+#: ../gui/GameConqueror.py:312
+msgid "Add to cheat list"
+msgstr "添加到作弊列表"
+
+#: ../gui/GameConqueror.py:313 ../gui/GameConqueror.py:320
+msgid "Browse this address"
+msgstr "浏览此地址"
+
+#: ../gui/GameConqueror.py:314
+msgid "Scan for this address"
+msgstr "扫描此地址"
+
+#: ../gui/GameConqueror.py:315
+msgid "Remove this match"
+msgstr "删除此条目"
+
+#: ../gui/GameConqueror.py:321
+msgid "Copy address"
+msgstr "复制地址"
+
+#: ../gui/GameConqueror.py:322
+msgid "Remove this entry"
+msgstr "删除此条目"
+
+#: ../gui/GameConqueror.py:349 ../gui/GameConqueror.py:537 ../gui/GameConqueror.py:1001
+msgid "Please select a process"
+msgstr "请选择一个进程"
+
+#: ../gui/GameConqueror.py:362
+msgid "Invalid address"
+msgstr "无效地址"
+
+#: ../gui/GameConqueror.py:372
+msgid "Please enter a valid address."
+msgstr "请输入有效内存地址。"
+
+#: ../gui/GameConqueror.py:376 ../gui/GameConqueror.py:897
+msgid "No Description"
+msgstr "无描述"
+
+#: ../gui/GameConqueror.py:405
+msgid "Open.."
+msgstr "打开.."
+
+#: ../gui/GameConqueror.py:425
+msgid "Save.."
+msgstr "保存.."
+
+#: ../gui/GameConqueror.py:530
+msgid "<unknown>"
+msgstr ""
+
+#: ../gui/GameConqueror.py:578 ../gui/GameConqueror.py:878
+msgid "Cannot read memory"
+msgstr "无法读取内存"
+
+#: ../gui/GameConqueror.py:834
+msgid "Unknown architecture, you may report to developers"
+msgstr "未知的架构，您可以向开发者报告。"
+
+#: ../gui/GameConqueror.py:846 ../gui/GameConqueror.py:929
+msgid ""
+"Cannot retrieve memory maps of that process, maybe it has exited (crashed), or you don't have enough "
+"privileges"
+msgstr "无法检索该进程的内存映射，可能该进程已退出（崩溃），或者您没有足够的权限。"
+
+#. not readable
+#: ../gui/GameConqueror.py:857
+#, python-format
+msgid "Address %x is not readable"
+msgstr "地址 %x 不可读"
+
+#: ../gui/GameConqueror.py:860
+#, python-format
+msgid "Address %x is not valid"
+msgstr "地址 %x 无效"
+
+#: ../gui/GameConqueror.py:869
+msgid "Cannot find a readable region"
+msgstr "找不到可读内存区域"
+
+#: ../gui/GameConqueror.py:1061
+#, python-format
+msgid "Found: %d"
+msgstr "找到：%d"
+
+#: ../gui/GameConqueror.py:1177
+msgid ""
+"Version of scanmem mismatched, you may encounter problems. Please make sure you are using the same "
+"version of GameConqueror as scanmem."
+msgstr "scanmem 版本不匹配，您可能会遇到问题。请确保您使用的 GameConqueror 和 scanmem 版本相同。"
+
+#: ../gui/GameConqueror.py:1183
+msgid "A GUI for scanmem, a game hacking tool"
+msgstr "一个用于scanmem的游戏作弊工具的图形用户界面"
+
+#: ../gui/GameConqueror.py:1184
+msgid "Report bugs to "
+msgstr "报告错误至 "
+
+#: ../gui/GameConqueror.py:1186
+msgid "prefill the search box"
+msgstr "预填充搜索框"
+
+#: ../gui/GameConqueror.py:1188
+msgid "PID of the process"
+msgstr "进程的PID"
+
+#: ../gui/misc.py:33
+msgid "No value provided"
+msgstr "未提供值"
+
+#: ../gui/misc.py:43 ../gui/misc.py:49 ../gui/misc.py:104
+#, python-format
+msgid "Bad value: %s"
+msgstr "错误值：%s"
+
+#: ../gui/misc.py:65
+#, python-format
+msgid "Command \"%s\" is not valid for the first scan"
+msgstr "命令 \"%s\" 对首次扫描无效"
+
+#: ../gui/misc.py:112
+#, python-format
+msgid "%s is not an integer"
+msgstr "%s 不是整数"
+
+#: ../gui/misc.py:118
+#, python-format
+msgid "%s is too bulky for %s"
+msgstr "%s 对于 %s 来说太大了"
+
+#: ../gui/misc.py:138
+#, python-format
+msgid "Cannot locate item: %s"
+msgstr "无法定位项目：%s"
+
+#: ../gui/org.scanmem.gameconqueror.desktop.in.h:1 ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:1
+msgid "Game Conqueror"
+msgstr ""
+
+#: ../gui/org.scanmem.gameconqueror.desktop.in.h:2
+msgid "A game hacking tool. A GUI front-end for scanmem."
+msgstr "一个游戏作弊工具。scanmem的图形界面前端。"
+
+#: ../gui/org.freedesktop.gameconqueror.policy.in.in.h:1
+msgid "Run Game Conqueror"
+msgstr "运行 Game Conqueror"
+
+#: ../gui/org.freedesktop.gameconqueror.policy.in.in.h:2
+msgid "Authentication is required to run Game Conqueror"
+msgstr "需要身份验证才能运行 Game Conqueror"
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:2
+msgid "Game hacking tool. GUI front-end for scanmem."
+msgstr "游戏作弊工具。scanmem的图形界面前端。"
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:3
+msgid ""
+"scanmem is a simple interactive debugging utility, used to locate the address of a variable in an "
+"executing process. This can be used for the analysis or modification of a hostile process on a "
+"compromised machine, reverse engineering, or as a \"pokefinder\" to cheat at video games. "
+"GameConqueror aims to provide a CheatEngine-alike interface for scanmem, it's user-friendly and easy "
+"to use."
+msgstr ""
+"scanmem是一个简单的交互式调试工具，用于在执行的进程中定位变量的地址。这可以用于在受感染的机器上分析或"
+"修改敌对进程，逆向工程，或作为“pokefinder”在视频游戏中作弊。GameConqueror旨在为scanmem提供类似于"
+"CheatEngine的界面，它用户友好且易于使用。"
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:4
+msgid "Features:"
+msgstr "功能："
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:5
+msgid "Locking on multiple variables"
+msgstr "锁定多个变量"
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:6
+msgid "Memory Viewer/Editor"
+msgstr "内存查看器/编辑器"
+
+#: ../gui/org.scanmem.gameconqueror.metainfo.xml.in.h:7
+msgid "... many to be done"
+msgstr "... 还有很多待完成"
+
+#~ msgid "Scan"
+#~ msgstr "スキャン"
+
+#~ msgid "Reset"
+#~ msgstr "リセット"
